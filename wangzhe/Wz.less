@@ -1,0 +1,1788 @@
+body {
+	padding-top: 0 !important;
+	.outer {
+		margin-top: 41px;
+		background: url(./img/海月.jpg) no-repeat;
+		background-size: 100% auto;
+	
+		.header {
+			width: 100%;
+			height: 84px;
+			color: #323235;
+			background-color: #090909;
+			// z-index: 1;
+			opacity: 0.8;
+			position: relative;
+	
+	
+			.header_inner {
+				width: 1300px;
+				height: 84px;
+				margin: 0 auto;
+				display: flex;
+				overflow: hidden;
+	
+				h1 {
+					width: 200px;
+					height: 84px;
+					position: relative;
+	
+					.logo {
+						left: 0;
+						top: -5px;
+						z-index: 100;
+						background: url(//game.gtimg.cn/images/yxzj/web201706/images/comm/logo.png) no-repeat center center;
+						width: 200px;
+						height: 54px;
+						text-indent: -999px;
+						overflow: hidden;
+					}
+	
+					.pa {
+						position: absolute;
+					}
+				}
+	
+				.main-nav {
+					width: 770px;
+					height: 84px;
+					margin: 0 auto;
+				
+					display: flex;
+					justify-content: space-around;
+					margin-bottom: 1px;
+	
+					li {
+						width: 115px;
+						height: 84px;
+						box-sizing: border-box;
+	
+						a {
+	
+							display: block;
+							width: 110px;
+							height: 64px;
+							padding: 20px 0 0;
+							color: #c9c9dd;
+							font-size: 18px;
+							line-height: 30px;
+							text-align: center;
+	
+	
+	
+	
+							em {
+								display: block;
+								padding-top: 5px;
+								font-size: 12px;
+								line-height: 16px;
+								color: #858792;
+								font-style: normal;
+							}
+						}
+					}
+	
+					li:hover {
+	
+						// border-bottom: 4px solid rgb(248, 182, 14);
+						color: #d9ad50;
+						// background: linear-gradient(#323235, rgba(244, 196, 64, 0.5))
+						background: url(//game.gtimg.cn/images/yxzj/web201706/images/comm/index.png) no-repeat;
+						display: inline-block;
+	
+					}
+	
+					li:hover a {
+						color: #d9ad50;
+					}
+	
+					li:hover em {
+						color: #d9ad50;
+					}
+				}
+	
+				.login {
+					width: 181px;
+					padding: 22px 0 0 0;
+					//  background-color: chartreuse;
+					display: flex;
+	
+					img {
+						width: 42px;
+						height: 42px;
+						border: 1px solid #d9ad50;
+						border-radius: 42px;
+						margin-right: 7px;
+					}
+	
+					div {
+						vertical-align: center;
+	
+						a {
+							display: block;
+							font-size: 16px;
+							color: #fff;
+						}
+	
+						p {
+							font-size: 14px;
+							color: #858792;
+						}
+					}
+				}
+			}
+	
+			.sub_nav {
+				position: absolute;
+				top: 80px;
+				left: 0;
+				width: 100%;
+				background: rgba(0, 0, 0, 0.7);
+				z-index: 999;
+				transition: all .3s ease;
+				overflow: hidden;
+				box-sizing: border-box;
+				visibility: hidden;
+				color: #c9c9dd;
+	
+				.sub_nav_inner {
+					width: 890px;
+					height: 240px;
+					margin: 0 auto;
+					overflow: hidden;
+					zoom: 1;
+					padding-top: 15px;
+					padding-bottom: 30px;
+					padding: 15px 0 30px 50px;
+	
+					.down_nav {
+						float: left;
+						display: inline;
+						width: 110px;
+						padding: 2px 2.5px 0;
+						text-align: center;
+						white-space: nowrap;
+	
+						a {
+							display: block;
+							color: #afb1b8;
+							font-size: 12px;
+	
+							.icon_hot {
+								width: 260px;
+								height: 24px;
+								background-position: -163px -68px;
+								padding-right: 2px;
+								background: url(./img/index.png) no-repeat -140px -5px;
+							}
+	
+							;
+	
+						}
+					}
+	
+					a:hover {
+						color: #d9ad50;
+						// text-decoration: underline;
+					}
+				}
+			}
+		}
+	
+		.header:hover .sub_nav {
+			visibility: visible;
+	
+		}
+	
+		.wrapper {
+			width: 100%;
+			height: 1300px;
+	
+	
+			.container {
+				width: 1200px;
+				margin: 0 auto;
+	
+				.detailed {
+					display: block;
+					width: 1200px;
+					height: 440px;
+					z-index: 3;
+					margin: 0 auto;
+					font-size: 0;
+					// background-color: green;
+				}
+	
+				.main_top {
+					width: 1200px;
+					height: 342px;
+					// background-color: red;
+					margin: 0 auto;
+	
+					box-sizing: border-box;
+					position: relative;
+	
+	
+					.ggBox {
+						position: relative;
+						width: 605px;
+						height: 342px;
+						float: left;
+						box-sizing: border-box;
+						overflow: hidden;
+	
+						.adPic {
+							position: absolute;
+							top: 0;
+							left: 0;
+							display: flex;
+							width: 3025px;
+							height: 298px;
+							overflow: hidden;
+							justify-content: flex-start;
+							align-items: center;
+							transition: left .3s linear 0s;
+	
+							.f1 {
+								display: block;
+								width: 100%;
+								height: 100%;
+	
+								img {
+									width: 100%;
+									height: 100%;
+								}
+							}
+	
+						}
+	
+						.adBtn {
+							font-size: 0;
+							position: absolute;
+							right: 0px;
+							bottom: 0px;
+	
+							a {
+								font-size: 14px;
+								display: inline-block;
+								box-sizing: border-box;
+								width: 120.8px;
+								height: 44px;
+								line-height: 44px;
+								text-overflow: ellipsis;
+								white-space: nowrap;
+								overflow: hidden;
+								cursor: pointer;
+								text-align: center;
+								color: #b1b2be;
+								background-color: #000;
+								transition: all .2s;
+	
+							}
+	
+							.active {
+								font-size: 14px;
+								background: rgb(44, 41, 41);
+								color: #f3c258;
+								// transform: scale(1.5);
+								transition: all .2s;
+							}
+	
+						}
+	
+	
+					}
+	
+					.news_center {
+						box-sizing: border-box;
+						width: 359px;
+						height: 342px;
+						color: #b8b9c5;
+						overflow: hidden;
+						padding: 0 17px;
+						background-color: rgba(42, 41, 49, 0.9);
+						float: left;
+	
+	
+						.newsTab {
+							width: 325px;
+							height: 338px;
+							overflow: hidden;	
+	
+							.tab_hd {
+	
+								border-bottom: 1px solid #000;
+								height: 50px;
+								position: relative;
+	
+								li {
+									float: left;
+									list-style: none;
+									width: 52px;
+									font-size: 14px;
+									text-align: center;
+									line-height: 45px;
+									height: 45px;
+									padding-bottom: 3px;
+	
+									.active {
+										color: #f3c258;
+										border-bottom: 2px solid #f3c258;
+										cursor: pointer;
+									}
+	
+								}
+	
+								li:hover {
+									color: #f3c258;
+									border-bottom: 2px solid #f3c258;
+									cursor: pointer;
+								}
+	
+								a {
+									position: absolute;
+									top: 10px;
+									right: 10px;
+									width: 52px;
+									display: block;
+									color: #b8b9c5;
+									text-align: center;
+									font-size: 14px;
+								}
+	
+							}
+	
+							.news_con {
+								position: relative;
+								width: 325px;
+								
+	
+								.tganime_slide_list {
+									position: absolute;
+									width: 1625px;
+	
+	
+	
+									.news-list {
+										float: left;
+										display: block;
+										width: 20%;
+										text-align: center;
+	
+	
+	
+	
+										.line_sp1 {
+											width: 324px;
+											height: 36px;
+											line-height: 36px;
+											padding: 0 15px;
+											margin: 18px 0 11px;
+											text-align: left;
+											font-size: 28px;
+											color: #333333;
+											background: #515055;
+	
+	
+											.news_txt {
+												color: #f3c258;
+												font-size: 18px;
+	
+	
+												.news_type {
+													display: none;
+	
+												}
+	
+												.news-title {
+													width: 230px;
+													text-overflow: ellipsis;
+													white-space: nowrap;
+													overflow: hidden;
+													display: inline-block;
+													vertical-align: top;
+												}
+	
+											}
+											em {
+												display: none;
+											}
+	
+										}
+	
+										li {
+											overflow: hidden;
+											margin-bottom: 11px;
+											text-align: left;
+	
+											.news {
+												color: #b8b9c5;
+												font-size: 14px;
+	
+	
+	
+												.news_type {
+													color: #ff3636;
+													margin-right: 5px;
+													font-size: 12px;
+													display: inline-block;
+													line-height: 16px;
+													border: 1px solid currentColor;
+													vertical-align: top;
+													margin-top: 2px;
+													width: 32px;
+													text-align: center;
+													border-radius: 2px;
+												}
+	
+												.news_title {
+													width: 230px;
+													text-overflow: ellipsis;
+													white-space: nowrap;
+													overflow: hidden;
+													display: inline-block;
+													vertical-align: top;
+												}
+	
+												.news_time {
+													color: #999;
+													font-size: 12px;
+													float: right;
+	
+												}
+											}
+											em {
+												float: right;
+											}
+										}
+									}
+								}
+							}
+						}
+	
+					}
+				}
+	
+				.download_pannel {
+					width: 236px;
+					height: 342px;
+					background-color: #858792;
+					float: left;
+					position: relative;
+	
+					.download_btn {
+						display: block;
+						position: relative;
+						width: 236px;
+						height: 128px;
+						background: url(https://game.gtimg.cn/images/yxzj/web201706/images/comm/index.png);
+						background-position: 0 -219px;
+						overflow: hidden;
+	
+						.download_btn_ani {
+							display: none;
+							position: absolute;
+							top: 0;
+							left: 0;
+							width: 300px;
+							height: 50px;
+							background-color: rgba(255, 255, 255, 0.8);
+							-webkit-transform: rotate(-45deg);
+							-moz-transform: rotate(-45deg);
+							-ms-transform: rotate(-45deg);
+							-o-transform: rotate(-45deg);
+							transform: rotate(-45deg);
+							-webkit-animation: lightmove 1.6s ease-in infinite;
+							-o-animation: lightmove 1.6s ease-in infinite;
+							animation: lightmove 1.6s ease-in infinite;
+							filter: blur(32px);
+						}
+					}
+	
+					.guard_btn {
+						display: block;
+						width: 236px;
+						height: 106px;
+						background: url(https://game.gtimg.cn/images/yxzj/web201706/images/comm/index.png);
+						background-position: 0 -350px;
+					}
+	
+					.tiyan_btn {
+						display: block;
+						width: 236px;
+						height: 108px;
+						background: url(https://game.gtimg.cn/images/yxzj/web201706/images/comm/index.png);
+						background-position: 0 -461px;
+					}
+				}
+	
+				.shiling {
+					position: absolute;
+					top: 0;
+					right: -58px;
+					width: 53px;
+					height: 68px;
+					background: url(//game.gtimg.cn/images/yxzj/web201706/images/comm/shiling.png);
+					cursor: pointer;
+				}
+	
+				.fanchenmi {
+					position: absolute;
+					top: 78px;
+					right: -58px;
+					width: 53px;
+					height: 47px;
+					background-image: url(//game.gtimg.cn/images/yxzj/web201706/images/comm/fanchenmi.png);
+					background-size: contain;
+					background-repeat: no-repeat;
+					cursor: pointer;
+				}
+			}
+	
+			.quick_entrance {
+				width: 1200px;
+				overflow: hidden;
+				height: 134px;
+				margin: 28px auto 34px;
+				letter-spacing: -0.35em;
+				display: flex;
+				box-sizing: border-box;
+	
+				.tagnime_image {
+					display: inline-block;
+					margin-right: 12px; //
+					overflow: hidden; //
+	
+	
+	
+					img {
+						width: 291px;
+						height: 134px;
+						border-radius: 2px 2px 2px 2px;
+						transform: scale(1);
+						transition: all .4s;
+					}
+	
+				}
+	
+				.tagnime_image:hover img {
+					transform: scale(1.1);
+					transition: all .4s;
+	
+	
+				}
+	
+	
+			}
+	
+			.main_item {
+				margin-bottom: 28px;
+				display: flex;
+	
+				.strategy_center {
+					width: 872px;
+					min-height: 528px;
+					margin-right: 33px;
+					// background-color: rebeccapurple;
+	
+	
+					.item_header {
+						position: relative;
+						zoom: 1;
+						margin-bottom: 16px;
+	
+						.item_title1 {
+							display: inline-block;
+							font-size: 22px;
+							line-height: 25px;
+							text-indent: 33px;
+							font-weight: 600;
+							letter-spacing: 1px;
+							width: 140px;
+							height: 26px;
+							background: url(//game.gtimg.cn/images/yxzj/web201706/images/comm/index.png) no-repeat;
+							background-position: 0 -106px;
+	
+						}
+	
+						.more_btn {
+							position: absolute;
+							top: 0;
+							right: 0;
+							padding-left: 22px;
+							background: url(//game.gtimg.cn/images/yxzj/web201706/images/comm/index.png)no-repeat -252px 2px;
+							color: #999;
+							float: right;
+	
+						}
+	
+						.more_btn:hover {
+							color: #f3c258;
+							;
+						}
+					}
+	
+					.item_subnav1 {
+						width: 872px;
+						height: 32px;
+						line-height: 29px;
+						background: #f5f5f5;
+						margin-bottom: 5px;
+						border-bottom: none;
+						display: flex;
+						// justify-content: space-between;
+	
+						a {
+							width: 289px;
+							display: block;
+							float: left;
+							font-size: 14px;
+							color: #999;
+							text-align: center;
+							border-bottom: 3px solid #f5f5f5;
+							text-decoration: none;
+	
+						}
+	
+						a:hover {
+							border-bottom: 3px solid #f3c258;
+							;
+						}
+	
+						.split {
+							width: 1px;
+							height: 20px;
+							background: #e1e1e1;
+							display: inline-block;
+							margin: 5px 0 0px;
+						}
+					}
+	
+				}
+	
+				.skin_center {
+					width: 295px;
+					height: 528px;
+					// background-color: red;
+	
+					.item_header {
+						position: relative;
+						margin-bottom: 16px;
+	
+						.item_title1 {
+							width: 140px;
+							height: 25px;
+							font-size: 22px;
+							line-height: 25px;
+							text-indent: 33px;
+							font-weight: 600;
+							letter-spacing: 1px;
+							background: url(//game.gtimg.cn/images/yxzj/web201706/images/comm/index.png) no-repeat;
+							display: inline-block;
+							background-position: 0 -144px;
+	
+						}
+	
+						.more_btn {
+							position: absolute;
+							top: 0;
+							right: 0;
+							padding-left: 22px;
+							background: url(//game.gtimg.cn/images/yxzj/web201706/images/comm/index.png)no-repeat -252px 2px;
+							color: #999;
+						}
+	
+						.more_btn:hover {
+							color: #f3c258;
+							;
+						}
+					}
+	
+					#tganime_slide_slidein {
+						position: relative;
+						overflow: hidden;
+						height: 470px;
+	
+	
+						.item_subnav {
+							position: absolute;
+							top: 0;
+							left: 0;
+							width: 295px;
+							height: 32px;
+							line-height: 29px;
+							background: #f5f5f5;
+							border-bottom: none;
+							position: relative;
+							overflow: hidden;
+							display: flex;
+							justify-content: space-around;
+						
+	
+							a {
+								display: block;
+								width: 97px;
+								text-align: center;
+								float: left;
+								background-color: transparent;
+								color: #999;
+	
+								
+	
+							}
+							.active {
+								border-bottom: 3px solid #f3c258;
+								color: #333333;
+							}
+	
+	
+	
+							.split {
+								width: 1px;
+								height: 20px;
+								overflow: hidden;
+								float: left;
+								background: #e1e1e1;
+								display: inline-block;
+								margin: 5px 0 0px;
+							}
+						}
+	
+						.slide-content {
+							position: absolute;
+							left: 0;
+							top: 32px;
+							display: flex;
+							width: 300%;
+							margin-top: 19px;
+	
+							.item_content {
+								width: 33.3333%;
+	
+	
+	
+								.new_hero {
+									display: block;
+									width: 294px;
+									height: 224px;
+									border-radius: 2px;
+									margin-bottom: 10px;
+	
+									img {
+										border: 0;
+										border-radius: 2px 2px 2px 2px
+									}
+	
+									.new_hero_bottom {
+										padding: 10px 15px;
+										height: 47px;
+										border: 1px solid #e5e5e5;
+										border-top: none;
+										border-radius: 0 0 2px 2px;
+	
+										.new_hero_name {
+											font-size: 18px;
+											color: #333333;
+											font-weight: bold;
+											text-align: left;
+										}
+	
+										p {
+											color: #999999;
+											font-size: 12px;
+											text-align: left;
+										}
+									}
+								}
+	
+								.hero_pic_list {
+									display: flex;
+	
+									ul {
+										display: flex;
+	
+										li {
+											position: relative;
+											width: 68px;
+											height: 173px;
+											margin: 0 7px 12px 0;
+											cursor: pointer;
+											vertical-align: middle;
+	
+	
+	
+											.hero_mask {
+												display: none;
+												position: absolute;
+												top: 0;
+												left: 0;
+												background: rgba(0, 0, 0, 0.88);
+												width: 68px;
+												height: 173px;
+											}
+	
+											.hero_name {
+												overflow: hidden;
+												display: none;
+												position: absolute;
+												top: 0px;
+												left: 26px;
+												text-align: center;
+												color: #f3c258;
+												font-size: 14px;
+												width: 34px;
+												height: 100%;
+												line-height: 16px;
+												padding-left: 2px;
+												-ms-writing-mode: tb-lr;
+												-webkit-writing-mode: vertical-r;
+												writing-mode: vertical-lr;
+												letter-spacing: 0.3em;
+												word-break: break-all;
+											}
+										}
+	
+										li:hover .hero_mask {
+											display: block;
+											transition: opacity .3s ease;
+										}
+	
+										li:hover .hero_name {
+											display: block;
+											animation: fadeOutFromAll .3s ease-in;
+	
+										}
+	
+									}
+	
+								}
+	
+								.hero_pic {
+									// display: flex;
+	
+									ul {
+	
+	
+	
+										li {
+											position: relative;
+											width: 68px;
+											height: 173px;
+											margin: 0 7px 12px 0;
+											cursor: pointer;
+											vertical-align: middle;
+											// display: table-cell;
+											float: left;
+	
+	
+											.hero_mask {
+												display: none;
+												position: absolute;
+												top: 0;
+												left: 0;
+												background: rgba(0, 0, 0, 0.88);
+												width: 68px;
+												height: 173px;
+											}
+	
+											.hero_name {
+												overflow: hidden;
+												display: none;
+												position: absolute;
+												top: 0px;
+												left: 26px;
+												text-align: center;
+												color: #f3c258;
+												font-size: 14px;
+												width: 34px;
+												height: 100%;
+												line-height: 16px;
+												padding-left: 2px;
+												-ms-writing-mode: tb-lr;
+												-webkit-writing-mode: vertical-r;
+												writing-mode: vertical-lr;
+												letter-spacing: 0.3em;
+												word-break: break-all;
+											}
+										}
+	
+										li:nth-child(4n) {
+											margin-right: 0;
+										}
+	
+										li:hover .hero_mask {
+											display: block;
+											transition: opacity .3s ease;
+										}
+	
+										li:hover .hero_name {
+											display: block;
+											animation: fadeOutFromAll .3s ease-in;
+	
+										}
+	
+									}
+	
+								}
+	
+								p {
+									color: #999999;
+									font-size: 12px;
+									text-align: right;
+	
+									.icon_watch {
+										width: 14px;
+										height: 14px;
+										margin-right: 10px;
+										vertical-align: middle;
+										background: url(//game.gtimg.cn/images/yxzj/web201706/images/comm/index.png) no-repeat;
+										display: inline-block;
+										background-position: -256px -43px;
+									}
+								}
+							}
+	
+							// .tganime-slide-list {
+	
+							// 	// transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+	
+	
+	
+	
+	
+							// }
+						}
+					}
+				}
+	
+			}
+	
+			.main_item {
+				margin-bottom: 28px;
+				display: flex;
+	
+				.strategy_center {
+					width: 872px;
+					margin-right: 33px;
+					// background-color: rebeccapurple;
+	
+	
+					.item_header {
+						position: relative;
+						zoom: 1;
+						margin-bottom: 16px;
+	
+						.item_title {
+							width: 140px;
+							height: 24px;
+							font-size: 22px;
+							line-height: 25px;
+							text-indent: 33px;
+							font-weight: 600;
+							letter-spacing: 1px;
+							width: 140px;
+							height: 24px;
+							background: url(//game.gtimg.cn/images/yxzj/web201706/images/comm/index.png) no-repeat;
+							display: inline-block;
+							background-position: 0 -184px;
+						}
+	
+						.more_btn {
+							position: absolute;
+							top: 20px;
+							right: 0;
+							padding-left: 22px;
+							background: url(//game.gtimg.cn/images/yxzj/web201706/images/comm/index.png)no-repeat -252px 2px;
+							color: #999;
+							float: right;
+	
+	
+						}
+	
+					}
+	
+					#main_sub {
+	
+						.item_subnav2 {
+							width: 872px;
+							height: 32px;
+							line-height: 29px;
+							background: #f5f5f5;
+							margin-bottom: 19px;
+							overflow: hidden;
+							border-bottom: none;
+							display: flex;
+							// justify-content: space-between;
+	
+							li {
+								a {
+									display: block;
+									// width: auto;
+									padding: 0 27px;
+									float: left;
+									font-size: 14px;
+									color: #999;
+									text-align: center;
+									// border-bottom: 3px solid #f5f5f5;
+	
+								}
+	
+	
+							}
+	
+							li:hover {
+								border-bottom: 3px solid #f3c258;
+							}
+	
+							.split {
+								width: 1px;
+								height: 20px;
+								background: #e1e1e1;
+								display: inline-block;
+								margin: 5px 0 0px;
+							}
+	
+	
+						}
+	
+	
+	
+						&>div {
+							display: none;
+	
+							.match_news {
+	
+								margin-bottom: 15px;
+								display: flex;
+	
+								.match_news_pic {
+	
+									a {
+										width: 211px;
+										height: 260px;
+										display: block;
+										float: left;
+										margin-right: 19px;
+	
+										img {
+											border: 0;
+											border-radius: 2px 2px 2px 2px;
+										}
+									}
+	
+								}
+	
+								.match_news_list {
+									width: 630px;
+	
+									.line_sp {
+	
+										background: none;
+										width: 577px;
+										margin: 0;
+										padding: 0;
+										height: 66px;
+										line-height: 32px;
+	
+	
+										.news_bg {
+											display: block;
+											width: 577px;
+											font-size: 24px;
+											color: #333;
+											text-align: left;
+											text-overflow: ellipsis;
+											white-space: nowrap;
+											overflow: hidden;
+										}
+	
+										.news_sub {
+											display: block;
+											width: 450px;
+											line-height: 23px;
+											font-size: 14px;
+											color: #666666;
+											font-weight: normal;
+											text-align: left;
+											text-overflow: ellipsis;
+											white-space: nowrap;
+											overflow: hidden;
+										}
+	
+										em {
+											display: none;
+										}
+									}
+	
+									li {
+										margin-bottom: 9px;
+										overflow: hidden;
+	
+										.news-type {
+											font-size: 12px;
+											display: inline-block;
+											width: 48px;
+											height: 19px;
+											line-height: 19px;
+											margin-right: 12px;
+											background: #e3e3e3;
+											border: 2px solid #e3e3e3;
+											border-radius: 10px;
+											text-align: center;
+											color: #999999;
+											text-indent: 2px;
+											overflow: hidden;
+										}
+	
+										.news_sub_title {
+											display: inline-block;
+											width: 470px;
+											color: #333;
+											text-overflow: ellipsis;
+											white-space: nowrap;
+											overflow: hidden;
+										}
+									}
+								}
+							}
+	
+							.video_list2 {
+								margin: 0;
+								padding: 0;
+	
+	
+								.tganime-fadein-trigger {
+									float: left;
+									width: 209px;
+									margin: 0 9px 30px 0;
+									position: relative;
+	
+									.tganime_fadein {
+										position: relative !important;
+										display: block;
+										width: 212px;
+										color: #363636;
+										cursor: pointer;
+	
+	
+										img {
+											width: 209px;
+											height: 125px;
+											border: 0;
+											border-radius: 2px 2px 2px 2px;
+										}
+	
+										.play_bar {
+											position: absolute;
+											display: block;
+											top: 104px;
+											left: 0;
+											width: 209px;
+											height: 22px;
+											line-height: 22px;
+											padding: 0 10px;
+											color: #fff;
+											background: rgba(0, 0, 0, 0.6);
+											font-size: 12px;
+											border-radius: 0 0 2px 2px;
+	
+											.ico_play {
+												display: inline-block;
+												padding-left: 15px;
+												background: url(//game.gtimg.cn/images/yxzj/web201706/images/comm/index.png) no-repeat;
+												background-position: -256px -59px;
+											}
+	
+											.fr {
+												float: right;
+											}
+										}
+	
+										.video-tit {
+											display: block;
+											height: 40px;
+											overflow: hidden;
+											color: #333333;
+											margin-top: 10px;
+										}
+	
+										.mask {
+											position: absolute;
+											width: 209px;
+											height: 127px;
+											top: 0px;
+											left: 0px;
+											filter: Alpha(opacity=60);
+											opacity: rgba(0, 0, 0, 0.6);
+											background: rgba(0, 0, 0, 0.6);
+											display: none;
+											cursor: pointer;
+											border-radius: 5px;
+	
+											.mask-play-ico {
+												width: 40px;
+												height: 40px;
+												display: block;
+												margin: 40px auto 0;
+												background: url(//game.gtimg.cn/images/yxzj/web201706/images/comm/index.png) no-repeat;
+												background-position: -192px -64px;
+											}
+	
+										}
+									}
+	
+	
+								}
+	
+								.tganime-fadein-trigger:hover .mask {
+									z-index: 3;
+									display: block;
+								}
+							}
+	
+	
+							// .clearfix:after {
+							// 	content: '\20';
+							// 	display: block;
+							// 	height: 0;
+							// 	line-height: 0;
+							// 	visibility: hidden;
+							// 	clear: both;
+							// }
+						}
+	
+						.active {
+							display: block;
+						}
+					}
+	
+	
+				}
+	
+				.skin_center {
+					width: 295px;
+					height: 528px;
+					// background-color: red;
+	
+					.item_header {
+						position: relative;
+						margin-bottom: 16px;
+	
+						.item_title {
+							width: 140px;
+							height: 24px;
+							font-size: 22px;
+							line-height: 25px;
+							text-indent: 33px;
+							font-weight: 600;
+							letter-spacing: 1px;
+							background: url(//game.gtimg.cn/images/yxzj/web201706/images/comm/index.png) no-repeat;
+							display: inline-block;
+							background-position: -157px -106px;
+							white-space: nowrap;
+	
+						}
+	
+						.buy_ticket {
+							position: absolute;
+							top: 20px;
+							right: 68px;
+							color: #323235;
+							width: 70px;
+							height: 22px;
+							padding-left: 22px;
+							border: 1px solid #f3c258;
+							border-radius: 3px;
+							box-sizing: border-box;
+							text-indent: 10px;
+							line-height: 19px;
+							background: url(//game.gtimg.cn/images/yxzj/web201706/images/comm/index.png)no-repeat -243px -85px;
+						}
+	
+						.more_btn {
+							position: absolute;
+							top: 20px;
+							right: 0;
+							padding-left: 22px;
+							background: url(//game.gtimg.cn/images/yxzj/web201706/images/comm/index.png)no-repeat -252px 2px;
+							color: #999;
+						}
+					}
+	
+					.tganime_slide_slidein {
+	
+	
+						.item_subnav {
+							width: 293px;
+							margin-bottom: 19px;
+							height: 32px;
+							line-height: 29px;
+							background: #f5f5f5;
+							border-bottom: none;
+							position: relative;
+							overflow: hidden;
+							display: flex;
+							justify-content: space-around;
+	
+							a {
+								display: block;
+								float: left;
+								background-color: transparent;
+								color: #999;
+							}
+	
+							.split {
+								width: 1px;
+								height: 20px;
+								overflow: hidden;
+								float: left;
+								background: #e1e1e1;
+								display: inline-block;
+								margin: 5px 0 0px;
+							}
+						}
+					}
+	
+					.item_content {
+						ul {
+							margin-bottom: 21px;
+	
+							li {
+								height: 67px;
+								line-height: 67px;
+								border-bottom: 1px solid #e5e5e5;
+	
+								.match_time {
+									display: inline-block;
+									width: 80px;
+									color: #333333;
+									font-size: 12px;
+									text-align: center;
+									vertical-align: top;
+								}
+	
+								.team_name {
+									display: inline-block;
+									width: 79px;
+									height: 67px;
+									color: #333333;
+									font-size: 14px;
+									text-align: center;
+	
+									img {
+										overflow: hidden;
+										display: block;
+										width: 25px;
+										height: 25px;
+										margin: 10px auto 0 auto;
+										border-radius: 50%;
+									}
+	
+									em {
+										display: inline-block;
+										font-style: normal;
+										font-size: 12px;
+										line-height: 24px;
+										vertical-align: top;
+									}
+								}
+	
+								.vs {
+									display: inline-block;
+									font-size: 14px;
+									width: 43px;
+									color: #f3c258;
+									text-align: center;
+									vertical-align: top;
+								}
+							}
+						}
+					}
+	
+					.active {
+						display: block;
+					}
+	
+					.match_adver {
+						width: 293px;
+						height: 159px;
+						margin-bottom: 15px;
+	
+						img {
+							width: 100%;
+							height: 100%;
+							border: 0;
+							border-radius: 2px 2px 2px 2px;
+						}
+					}
+				}
+	
+			}
+		}
+	
+		.r_nav {
+			pointer-events: none;
+			position: fixed;
+			z-index: 3;
+			top: 50%;
+			right: 0;
+			margin-top: -240px;
+			width: 254px;
+			height: 494px;
+			background: url(https://game.gtimg.cn/images/yxzj/web201706/images/comm/floatwindow/r_navBg.png) no-repeat top left;
+	
+	
+	
+			.r_dj {
+				position: absolute;
+				top: 15px;
+				left: 24px;
+				z-index: 2;
+				width: 165px;
+				height: 145px;
+				background: url(https://game.gtimg.cn/images/yxzj/web201706/images/comm/floatwindow/r_dj.png) no-repeat top center;
+	
+				.tp {
+					display: block;
+					position: absolute;
+					top: 30px;
+					left: 12px;
+					width: 88px;
+					height: 36px;
+					font-size: 12px;
+					text-indent: 2px;
+					font-weight: bold;
+					line-height: 18px;
+					color: #62401b;
+					overflow: hidden;
+				}
+	
+				.btm {
+					position: absolute;
+					top: 50px;
+					left: 12px;
+					width: 88px;
+					height: 36px;
+					font-size: 12px;
+					text-indent: 2px;
+					font-weight: bold;
+					line-height: 18px;
+					color: #62401b;
+					overflow: hidden;
+				}
+			}
+	
+			.r_con {
+				pointer-events: auto;
+				position: absolute;
+				top: 157px;
+				left: 85px;
+	
+	
+				.r_code {
+					height: 134px;
+					margin-top: 1px;
+					position: relative;
+					width: 117px;
+					padding-top: 2px;
+					background: url(https://game.gtimg.cn/images/yxzj/web201706/images/comm/floatwindow/r_all2022.png) no-repeat;
+					background-position: -243px 0;
+					text-align: center;
+	
+					img {
+						margin: 0 auto;
+						border: 0;
+						border-radius: 2px 2px 2px 2px;
+					}
+				}
+	
+	
+	
+				.r_wc_yd {
+					width: 117px;
+					height: 38px;
+					position: relative;
+					margin-top: 1px;
+					background-image: url(https://game.gtimg.cn/images/yxzj/web201706/images/comm/floatwindow/r_all2022.png);
+					background-position: -243px -134px;
+					background-repeat: no-repeat;
+					background-size: 360px 569px;
+	
+					.r_assBg {
+						display: none;
+						position: absolute;
+						top: -66px;
+						left: -116px;
+						width: 115px;
+						height: 150px;
+						background-position: 0 -416px;
+						padding-top: 7px;
+						background-image: url(https://game.gtimg.cn/images/yxzj/web201706/images/comm/floatwindow/r_all2022.png);
+						background-repeat: no-repeat;
+						background-size: 360px 569px;
+						text-align: center;
+	
+						img {
+							margin-bottom: 6px;
+						}
+	
+						p {
+							width: 101px;
+							height: 34px;
+							line-height: 17px;
+							color: #dcdcdc;
+							font-size: 12px;
+							text-align: center;
+							margin: 0 auto;
+							overflow: hidden;
+							margin: 0 7px;
+	
+							span {
+								line-height: 17px;
+								color: #cd974b;
+								font-size: 12px;
+								text-align: center;
+	
+							}
+						}
+	
+					}
+	
+				}
+	
+				.r_wc_yd:hover {
+					background-position: -243px -172px;
+					background-image: url(https://game.gtimg.cn/images/yxzj/web201706/images/comm/floatwindow/r_all2022.png);
+					background-repeat: no-repeat;
+					background-size: 360px 569px;
+	
+				}
+	
+				.r_wc_yd:hover .r_assBg {
+					transition: opacity .4s ease;
+					display: block;
+	
+	
+				}
+	
+				.r_burst {
+					background-position: -122px -120px;
+					position: relative;
+					width: 117px;
+					height: 38px;
+					margin-top: 1px;
+					background-image: url(https://game.gtimg.cn/images/yxzj/web201706/images/comm/floatwindow/r_all2022.png);
+					background-repeat: no-repeat;
+					background-size: 360px 569px;
+	
+					a {
+						display: block;
+						width: 100%;
+						height: 100%;
+						color: #363636;
+					}
+	
+	
+					.r_assBg {
+						opacity: 0;
+						transition: opacity 0.3s ease;
+						position: absolute;
+						top: -66px;
+						left: -116px;
+						width: 115px;
+						height: 150px;
+						background-position: 0 -416px;
+						padding-top: 7px;
+						background-image: url(https://game.gtimg.cn/images/yxzj/web201706/images/comm/floatwindow/r_all2022.png);
+						background-repeat: no-repeat;
+						background-size: 360px 569px;
+						text-align: center;
+	
+						img {
+							margin-bottom: 6px;
+							border: 0;
+							border-radius: 2px 2px 2px 2px;
+	
+						}
+	
+						p {
+							width: 101px;
+							height: 34px;
+							line-height: 17px;
+							color: #dcdcdc;
+							font-size: 12px;
+							text-align: center;
+							margin: 0 auto;
+							overflow: hidden;
+							margin: 0 7px;
+	
+							span {
+								line-height: 17px;
+								color: #cd974b;
+								font-size: 12px;
+								text-align: center;
+	
+							}
+						}
+					}
+				}
+	
+	
+				.r_burst:hover {
+					background-image: url(https://game.gtimg.cn/images/yxzj/web201706/images/comm/floatwindow/r_all2022.png);
+					background-position: -122px -240px;
+					background-repeat: no-repeat;
+					background-size: 360px 569px;
+				}
+	
+				.r_burst:hover .r_assBg {
+				opacity: 1;
+				}
+	
+	
+				.r_wc_gzh {
+					position: relative;
+					margin-top: 1px;
+					width: 117px;
+					height: 38px;
+					background-image: url(https://game.gtimg.cn/images/yxzj/web201706/images/comm/floatwindow/r_all2022.png);
+					background-position: -122px -160px;
+					background-repeat: no-repeat;
+					background-size: 360px 569px;
+	
+					.r_assBg {
+						opacity: 0;
+						transition: opacity 0.3s ease;
+						position: absolute;
+						top: -66px;
+						left: -116px;
+						width: 115px;
+						height: 150px;
+						padding-top: 7px;
+						background-image: url(https://game.gtimg.cn/images/yxzj/web201706/images/comm/floatwindow/r_all2022.png);
+						background-position: 0 -416px;
+						background-repeat: no-repeat;
+						background-size: 360px 569px;
+						text-align: center;
+	
+						img {
+							margin-bottom: 6px;
+							border: 0;
+							border-radius: 2px 2px 2px 2px;
+						}
+	
+						p {
+							width: 118px;
+							height: 34px;
+							line-height: 17px;
+							color: #dcdcdc;
+							font-size: 12px;
+							text-align: center;
+							overflow: hidden;
+	
+	
+							span {
+								line-height: 17px;
+								color: #cd974b;
+								font-size: 12px;
+								text-align: center;
+							}
+						}
+	
+					}
+	
+				}
+	
+				.r_wc_gzh:hover {
+					background-image: url(https://game.gtimg.cn/images/yxzj/web201706/images/comm/floatwindow/r_all2022.png);
+					background-repeat: no-repeat;
+					background-size: 360px 569px;
+					background-position: -122px -200px;
+				}
+	
+				.r_wc_gzh:hover .r_assBg {
+					opacity: 1;
+				
+				}
+	
+				.r_wc_sph {
+					background-position: -122px 0;
+					background-image: url(https://game.gtimg.cn/images/yxzj/web201706/images/comm/floatwindow/r_all2022.png);
+					background-repeat: no-repeat;
+					background-size: 360px 569px;
+					width: 117px;
+					height: 38px;
+					margin-top: 1px;
+					position: relative;
+	
+					.r_assBg {
+						opacity: 0;
+						transition: opacity 0.5s ease;
+						position: absolute;
+						top: -66px;
+						left: -116px;
+						width: 115px;
+						height: 150px;
+						padding-top: 7px;
+						background-image: url(https://game.gtimg.cn/images/yxzj/web201706/images/comm/floatwindow/r_all2022.png
+	);
+						background-position: 0 -416px;
+						background-repeat: no-repeat;
+						background-size: 360px 569px;
+						text-align: center;
+	
+						img {
+							margin-bottom: 5px;
+							border: 0;
+							border-radius: 2px 2px 2px 2px;
+						}
+	
+						p {
+							width: 115px;
+							height: 34px;
+							line-height: 17px;
+							color: #dcdcdc;
+							font-size: 12px;
+							text-align: center;
+							overflow: hidden;
+							
+							span {
+								line-height: 17px;
+								color: #cd974b;
+								font-size: 12px;
+								text-align: center;
+							}
+						}
+	
+					}
+	
+				}
+	
+				.r_wc_sph:hover {
+					background-image: url(https://game.gtimg.cn/images/yxzj/web201706/images/comm/floatwindow/r_all2022.png);
+					background-repeat: no-repeat;
+					background-size: 360px 569px;
+					background-position: -122px -42px;
+				}
+	
+				.r_wc_sph:hover .r_assBg {
+					opacity: 1;
+				}
+	
+			}
+	
+		}
+	
+		.foot {
+			position: relative;
+			background: none;
+			width: 1200px;
+			padding-top: 80px;
+			color: #000;
+			font: 12px/20px "微软雅黑", "宋体";
+			min-width: 1050px;
+			margin: 0 auto;
+			text-align: left;
+		}
+	}
+}

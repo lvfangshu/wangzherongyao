@@ -1,0 +1,481 @@
+[
+	0: {heroId: "1", name: "黑暗之女", alias: "Annie", title: "安妮", roles: [
+			"mage"
+		], isWeekFree: "0", attack: "2",…
+	}
+	1: {heroId: "2", name: "狂战士", alias: "Olaf", title: "奥拉夫", roles: [
+			"fighter",
+			"tank"
+		], isWeekFree: "0",…
+	}
+	2: {heroId: "3", name: "正义巨像", alias: "Galio", title: "加里奥", roles: [
+			"tank",
+			"mage"
+		], isWeekFree: "0",…
+	}
+	3: {heroId: "4", name: "卡牌大师", alias: "TwistedFate", title: "崔斯特", roles: [
+			"mage"
+		], isWeekFree: "0",…
+	}
+	4: {heroId: "5", name: "德邦总管", alias: "XinZhao", title: "赵信", roles: [
+			"fighter",
+			"assassin"
+		],…
+	}
+	5: {heroId: "6", name: "无畏战车", alias: "Urgot", title: "厄加特", roles: [
+			"fighter",
+			"tank"
+		], isWeekFree: "0",…
+	}
+	6: {heroId: "7", name: "诡术妖姬", alias: "Leblanc", title: "乐芙兰", roles: [
+			"assassin",
+			"mage"
+		],…
+	}
+	7: {heroId: "8", name: "猩红收割者", alias: "Vladimir", title: "弗拉基米尔", roles: [
+			"mage"
+		], isWeekFree: "0",…
+	}
+	8: {heroId: "9", name: "远古恐惧", alias: "FiddleSticks", title: "费德提克", roles: [
+			"mage",
+			"support"
+		],…
+	}
+	9: {heroId: "10", name: "正义天使", alias: "Kayle", title: "凯尔", roles: [
+			"fighter",
+			"support"
+		],…
+	}
+	10: {heroId: "11", name: "无极剑圣", alias: "MasterYi", title: "易", roles: [
+			"assassin",
+			"fighter"
+		],…
+	}
+	11: {heroId: "12", name: "牛头酋长", alias: "Alistar", title: "阿利斯塔", roles: [
+			"tank",
+			"support"
+		],…
+	}
+	12: {heroId: "13", name: "符文法师", alias: "Ryze", title: "瑞兹", roles: [
+			"mage",
+			"fighter"
+		], isWeekFree: "0",…
+	}
+	13: {heroId: "14", name: "亡灵战神", alias: "Sion", title: "赛恩", roles: [
+			"tank",
+			"fighter"
+		], isWeekFree: "0",…
+	}
+	14: {heroId: "15", name: "战争女神", alias: "Sivir", title: "希维尔", roles: [
+			"marksman"
+		], isWeekFree: "0",…
+	}
+	15: {heroId: "16", name: "众星之子", alias: "Soraka", title: "索拉卡", roles: [
+			"support",
+			"mage"
+		],…
+	}
+	16: {heroId: "17", name: "迅捷斥候", alias: "Teemo", title: "提莫", roles: [
+			"marksman",
+			"assassin"
+		],…
+	}
+	17: {heroId: "18", name: "麦林炮手", alias: "Tristana", title: "崔丝塔娜", roles: [
+			"marksman",
+			"assassin"
+		],…
+	}
+	18: {heroId: "19", name: "祖安怒兽", alias: "Warwick", title: "沃里克", roles: [
+			"fighter",
+			"tank"
+		],…
+	}
+	19: {heroId: "20", name: "雪原双子", alias: "Nunu", title: "努努和威朗普", roles: [
+			"tank",
+			"fighter"
+		],…
+	}
+	20: {heroId: "21", name: "赏金猎人", alias: "MissFortune", title: "厄运小姐", roles: [
+			"marksman"
+		], isWeekFree: "0",…
+	}
+	21: {heroId: "22", name: "寒冰射手", alias: "Ashe", title: "艾希", roles: [
+			"marksman",
+			"support"
+		],…
+	}
+	22: {heroId: "23", name: "蛮族之王", alias: "Tryndamere", title: "泰达米尔", roles: [
+			"fighter",
+			"assassin"
+		],…
+	}
+	23: {heroId: "24", name: "武器大师", alias: "Jax", title: "贾克斯", roles: [
+			"fighter",
+			"assassin"
+		],…
+	}
+	24: {heroId: "25", name: "堕落天使", alias: "Morgana", title: "莫甘娜", roles: [
+			"mage",
+			"support"
+		],…
+	}
+	25: {heroId: "26", name: "时光守护者", alias: "Zilean", title: "基兰", roles: [
+			"support",
+			"mage"
+		],…
+	}
+	26: {heroId: "27", name: "炼金术士", alias: "Singed", title: "辛吉德", roles: [
+			"tank",
+			"fighter"
+		],…
+	}
+	27: {heroId: "28", name: "痛苦之拥", alias: "Evelynn", title: "伊芙琳", roles: [
+			"assassin",
+			"mage"
+		],…
+	}
+	28: {heroId: "29", name: "瘟疫之源", alias: "Twitch", title: "图奇", roles: [
+			"marksman",
+			"assassin"
+		],…
+	}
+	29: {heroId: "30", name: "死亡颂唱者", alias: "Karthus", title: "卡尔萨斯", roles: [
+			"mage"
+		], isWeekFree: "0",…
+	}
+	30: {heroId: "31", name: "虚空恐惧", alias: "Chogath", title: "科加斯", roles: [
+			"tank",
+			"mage"
+		], isWeekFree: "0",…
+	}
+	31: {heroId: "32", name: "殇之木乃伊", alias: "Amumu", title: "阿木木", roles: [
+			"tank",
+			"mage"
+		], isWeekFree: "0",…
+	}
+	32: {heroId: "33", name: "披甲龙龟", alias: "Rammus", title: "拉莫斯", roles: [
+			"tank",
+			"fighter"
+		],…
+	}
+	33: {heroId: "34", name: "冰晶凤凰", alias: "Anivia", title: "艾尼维亚", roles: [
+			"mage",
+			"support"
+		],…
+	}
+	34: {heroId: "35", name: "恶魔小丑", alias: "Shaco", title: "萨科", roles: [
+			"assassin"
+		], isWeekFree: "0",…
+	}
+	35: {heroId: "36", name: "祖安狂人", alias: "DrMundo", title: "蒙多医生", roles: [
+			"fighter",
+			"tank"
+		],…
+	}
+	36: {heroId: "37", name: "琴瑟仙女", alias: "Sona", title: "娑娜", roles: [
+			"support",
+			"mage"
+		], isWeekFree: "0",…
+	}
+	37: {heroId: "38", name: "虚空行者", alias: "Kassadin", title: "卡萨丁", roles: [
+			"assassin",
+			"mage"
+		],…
+	}
+	38: {heroId: "39", name: "刀锋舞者", alias: "Irelia", title: "艾瑞莉娅", roles: [
+			"fighter",
+			"assassin"
+		],…
+	}
+	39: {heroId: "40", name: "风暴之怒", alias: "Janna", title: "迦娜", roles: [
+			"support",
+			"mage"
+		], isWeekFree: "0",…
+	}
+	40: {heroId: "41", name: "海洋之灾", alias: "Gangplank", title: "普朗克", roles: [
+			"fighter"
+		], isWeekFree: "0",…
+	}
+	41: {heroId: "42", name: "英勇投弹手", alias: "Corki", title: "库奇", roles: [
+			"marksman"
+		], isWeekFree: "0",…
+	}
+	42: {heroId: "43", name: "天启者", alias: "Karma", title: "卡尔玛", roles: [
+			"mage",
+			"support"
+		], isWeekFree: "0",…
+	}
+	43: {heroId: "44", name: "瓦洛兰之盾", alias: "Taric", title: "塔里克", roles: [
+			"support",
+			"fighter"
+		],…
+	}
+	44: {heroId: "45", name: "邪恶小法师", alias: "Veigar", title: "维迦", roles: [
+			"mage"
+		], isWeekFree: "0",…
+	}
+	45: {heroId: "48", name: "巨魔之王", alias: "Trundle", title: "特朗德尔", roles: [
+			"fighter",
+			"tank"
+		],…
+	}
+	46: {heroId: "50", name: "诺克萨斯统领", alias: "Swain", title: "斯维因", roles: [
+			"mage",
+			"fighter"
+		],…
+	}
+	47: {heroId: "51", name: "皮城女警", alias: "Caitlyn", title: "凯特琳", roles: [
+			"marksman"
+		], isWeekFree: "0",…
+	}
+	48: {heroId: "53", name: "蒸汽机器人", alias: "Blitzcrank", title: "布里茨", roles: [
+			"tank",
+			"fighter",
+			"support"
+		],…
+	}
+	49: {heroId: "54", name: "熔岩巨兽", alias: "Malphite", title: "墨菲特", roles: [
+			"tank",
+			"fighter"
+		],…
+	}
+	50: {heroId: "55", name: "不祥之刃", alias: "Katarina", title: "卡特琳娜", roles: [
+			"assassin",
+			"mage"
+		],…
+	}
+	51: {heroId: "56", name: "永恒梦魇", alias: "Nocturne", title: "魔腾", roles: [
+			"assassin",
+			"fighter"
+		],…
+	}
+	52: {heroId: "57", name: "扭曲树精", alias: "Maokai", title: "茂凯", roles: [
+			"tank",
+			"mage"
+		], isWeekFree: "0",…
+	}
+	53: {heroId: "58", name: "荒漠屠夫", alias: "Renekton", title: "雷克顿", roles: [
+			"fighter",
+			"tank"
+		],…
+	}
+	54: {heroId: "59", name: "德玛西亚皇子", alias: "JarvanIV", title: "嘉文四世", roles: [
+			"tank",
+			"fighter"
+		],…
+	}
+	55: {heroId: "60", name: "蜘蛛女皇", alias: "Elise", title: "伊莉丝", roles: [
+			"mage",
+			"fighter"
+		], isWeekFree: "0",…
+	}
+	56: {heroId: "61", name: "发条魔灵", alias: "Orianna", title: "奥莉安娜", roles: [
+			"mage",
+			"support"
+		],…
+	}
+	57: {heroId: "62", name: "齐天大圣", alias: "MonkeyKing", title: "孙悟空", roles: [
+			"fighter",
+			"tank"
+		],…
+	}
+	58: {heroId: "63", name: "复仇焰魂", alias: "Brand", title: "布兰德", roles: [
+			"mage"
+		], isWeekFree: "0",…
+	}
+	59: {heroId: "64", name: "盲僧", alias: "LeeSin", title: "李青", roles: [
+			"fighter",
+			"assassin"
+		],…
+	}
+	60: {heroId: "67", name: "暗夜猎手", alias: "Vayne", title: "薇恩", roles: [
+			"marksman",
+			"assassin"
+		],…
+	}
+	61: {heroId: "68", name: "机械公敌", alias: "Rumble", title: "兰博", roles: [
+			"fighter",
+			"mage"
+		], isWeekFree: "0",…
+	}
+	62: {heroId: "69", name: "魔蛇之拥", alias: "Cassiopeia", title: "卡西奥佩娅", roles: [
+			"mage"
+		], isWeekFree: "0",…
+	}
+	63: {heroId: "72", name: "水晶先锋", alias: "Skarner", title: "斯卡纳", roles: [
+			"fighter",
+			"tank"
+		],…
+	}
+	64: {heroId: "74", name: "大发明家", alias: "Heimerdinger", title: "黑默丁格", roles: [
+			"mage",
+			"support"
+		],…
+	}
+	65: {heroId: "75", name: "沙漠死神", alias: "Nasus", title: "内瑟斯", roles: [
+			"fighter",
+			"tank"
+		], isWeekFree: "0",…
+	}
+	66: {heroId: "76", name: "狂野女猎手", alias: "Nidalee", title: "奈德丽", roles: [
+			"assassin",
+			"mage"
+		],…
+	}
+	67: {heroId: "77", name: "兽灵行者", alias: "Udyr", title: "乌迪尔", roles: [
+			"fighter",
+			"tank"
+		], isWeekFree: "0",…
+	}
+	68: {heroId: "78", name: "圣锤之毅", alias: "Poppy", title: "波比", roles: [
+			"tank",
+			"fighter"
+		], isWeekFree: "0",…
+	}
+	69: {heroId: "79", name: "酒桶", alias: "Gragas", title: "古拉加斯", roles: [
+			"fighter",
+			"mage"
+		], isWeekFree: "0",…
+	}
+	70: {heroId: "80", name: "不屈之枪", alias: "Pantheon", title: "潘森", roles: [
+			"fighter",
+			"assassin"
+		],…
+	}
+	71: {heroId: "81", name: "探险家", alias: "Ezreal", title: "伊泽瑞尔", roles: [
+			"marksman",
+			"mage"
+		],…
+	}
+	72: {heroId: "82", name: "铁铠冥魂", alias: "Mordekaiser", title: "莫德凯撒", roles: [
+			"fighter"
+		], isWeekFree: "0",…
+	}
+	73: {heroId: "83", name: "牧魂人", alias: "Yorick", title: "约里克", roles: [
+			"fighter",
+			"tank"
+		], isWeekFree: "0",…
+	}
+	74: {heroId: "84", name: "离群之刺", alias: "Akali", title: "阿卡丽", roles: [
+			"assassin"
+		], isWeekFree: "0",…
+	}
+	75: {heroId: "85", name: "狂暴之心", alias: "Kennen", title: "凯南", roles: [
+			"mage",
+			"marksman"
+		],…
+	}
+	76: {heroId: "86", name: "德玛西亚之力", alias: "Garen", title: "盖伦", roles: [
+			"fighter",
+			"tank"
+		],…
+	}
+	77: {heroId: "89", name: "曙光女神", alias: "Leona", title: "蕾欧娜", roles: [
+			"tank",
+			"support"
+		], isWeekFree: "0",…
+	}
+	78: {heroId: "90", name: "虚空先知", alias: "Malzahar", title: "玛尔扎哈", roles: [
+			"mage",
+			"assassin"
+		],…
+	}
+	79: {heroId: "91", name: "刀锋之影", alias: "Talon", title: "泰隆", roles: [
+			"assassin"
+		], isWeekFree: "0",…
+	}
+	80: {heroId: "92", name: "放逐之刃", alias: "Riven", title: "锐雯", roles: [
+			"fighter",
+			"assassin"
+		],…
+	}
+	81: {heroId: "96", name: "深渊巨口", alias: "KogMaw", title: "克格莫", roles: [
+			"marksman",
+			"mage"
+		],…
+	}
+	82: {heroId: "98", name: "暮光之眼", alias: "Shen", title: "慎", roles: [
+			"tank"
+		], isWeekFree: "0", attack: "3",…
+	}
+	83: {heroId: "99", name: "光辉女郎", alias: "Lux", title: "拉克丝", roles: [
+			"mage",
+			"support"
+		], isWeekFree: "0",…
+	}
+	84: {heroId: "101", name: "远古巫灵", alias: "Xerath", title: "泽拉斯", roles: [
+			"mage"
+		], isWeekFree: "0",…
+	}
+	85: {heroId: "102", name: "龙血武姬", alias: "Shyvana", title: "希瓦娜", roles: [
+			"fighter",
+			"tank"
+		],…
+	}
+	86: {heroId: "103", name: "九尾妖狐", alias: "Ahri", title: "阿狸", roles: [
+			"mage",
+			"assassin"
+		], isWeekFree: "0",…
+	}
+	87: {heroId: "104", name: "法外狂徒", alias: "Graves", title: "格雷福斯", roles: [
+			"marksman"
+		], isWeekFree: "0",…
+	}
+	88: {heroId: "105", name: "潮汐海灵", alias: "Fizz", title: "菲兹", roles: [
+			"assassin",
+			"fighter"
+		],…
+	}
+	89: {heroId: "106", name: "不灭狂雷", alias: "Volibear", title: "沃利贝尔", roles: [
+			"fighter",
+			"tank"
+		],…
+	}
+	90: {heroId: "107", name: "傲之追猎者", alias: "Rengar", title: "雷恩加尔", roles: [
+			"assassin",
+			"fighter"
+		],…
+	}
+	91: {heroId: "110", name: "惩戒之箭", alias: "Varus", title: "韦鲁斯", roles: [
+			"marksman",
+			"mage"
+		],…
+	}
+	92: {heroId: "111", name: "深海泰坦", alias: "Nautilus", title: "诺提勒斯", roles: [
+			"tank",
+			"support"
+		],…
+	}
+	93: {heroId: "112", name: "机械先驱", alias: "Viktor", title: "维克托", roles: [
+			"mage"
+		], isWeekFree: "0",…
+	}
+	94: {heroId: "113", name: "北地之怒", alias: "Sejuani", title: "瑟庄妮", roles: [
+			"tank",
+			"fighter"
+		],…
+	}
+	95: {heroId: "114", name: "无双剑姬", alias: "Fiora", title: "菲奥娜", roles: [
+			"fighter",
+			"assassin"
+		],…
+	}
+	96: {heroId: "115", name: "爆破鬼才", alias: "Ziggs", title: "吉格斯", roles: [
+			"mage"
+		], isWeekFree: "0",…
+	}
+	97: {heroId: "117", name: "仙灵女巫", alias: "Lulu", title: "璐璐", roles: [
+			"support",
+			"mage"
+		], isWeekFree: "0",…
+	}
+	98: {heroId: "119", name: "荣耀行刑官", alias: "Draven", title: "德莱文", roles: [
+			"marksman"
+		], isWeekFree: "0",…
+	}
+	99: {heroId: "120", name: "战争之影", alias: "Hecarim", title: "赫卡里姆", roles: [
+			"fighter",
+			"tank"
+		],…
+	}
+]
